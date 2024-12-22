@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Music Mood Matcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🎵 AI Music Mood Matcher</h1>
+      <p>Let us match your mood with the perfect songs!</p>
+    </div>
+
+    <textarea id="userInput" placeholder="Describe your mood here..."></textarea>
+    <button id="analyzeMood" class="btn">Analyze Mood</button>
+
+    <div id="result" class="result">
+      <h2>Mood: <span id="mood"></span></h2>
+      <h3>Recommended Songs:</h3>
+      <div id="songs"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
